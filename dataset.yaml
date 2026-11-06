@@ -1,0 +1,7 @@
+path: ../datasets/anpr  # 相對於 yolov5 資料夾的路徑
+train: images/train
+val: images/val
+
+# 類別數量與名稱
+nc: 1
+names: ['license_plate']

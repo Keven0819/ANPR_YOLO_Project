@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datasets (large files, download per README instructions)
+raw_data/
+datasets/
+
+# External YOLOv5 repository (cloned per README instructions)
+yolov5/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar
+*.tar.gz
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
